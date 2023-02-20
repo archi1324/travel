@@ -20,6 +20,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
+    padding-top: 73px;
     max-width: 720px;
     grid-template-columns: 340px 1fr;
     column-gap: 30px;
@@ -28,9 +29,21 @@
 
 @media screen and (max-width: 604px) {
   .place {
+    padding-top: 50px;
     max-width: 320px;
     grid-template-columns: 320px 1fr;
     column-gap: 1px;
     row-gap: 1px;
   }
 }
+
+@media screen and (max-width: 604px) {
+  .place:nth-child(1) {
+    padding-top:0 ;
+  }
+  }
+  @media screen and (max-width: 768px) {
+    .place:nth-child(1) {
+      padding-top:0 ;
+    }
+    }

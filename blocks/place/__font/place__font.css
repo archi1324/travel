@@ -13,18 +13,6 @@
   }
 }
 
-@media screen and (max-width: 604px) {
-  .place__font {
-    margin: 16px 0 0 16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__font {
-    margin: 25px 0 0 16px;
-    line-height: 26.75px;
-  }
-}
 
 .place__font:last-child {
   margin-bottom: 0;
